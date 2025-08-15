@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"solidity-learning-lab/27_不可变量.sol": "Immutable"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"solidity-learning-lab/27_不可变量.sol": {
+			"keccak256": "0xb4e09090f87d03d100eef74b58b44c5a00d1e2747e475ab09680feaa9eb978ee",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://db8fbea127a21007339b737b19423f0388026528fa6574e7332be9ac5e1e0a94",
+				"dweb:/ipfs/QmYS8sMbX9DodpC3shz1C5ymjENDG98YsAztLvcLFBp9Cy"
+			]
+		}
+	},
+	"version": 1
+}

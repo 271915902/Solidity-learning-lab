@@ -1,0 +1,69 @@
+{
+	"id": "7f552ee0b9758c9db24881e0454ffff5",
+	"_format": "hh-sol-build-info-1",
+	"solcVersion": "0.8.30",
+	"solcLongVersion": "0.8.30+commit.73712a01",
+	"input": {
+		"language": "Solidity",
+		"sources": {
+			"solidity-learning-lab/26_可视范围.sol": {
+				"content": "// SPDX-License-Identifier: MIT\npragma solidity ^0.8.30;\n\n// private  私有 合约内部可以看到     子合约继承看不到\n// internal 内部   合约内部可以看到     子合约继承可以看到\n\n// external 外部  合约内部看不到       合约外部才可以看到   子合约继承可以看到\n// public   公开     在哪都可以看到\n"
+			}
+		},
+		"settings": {
+			"optimizer": {
+				"enabled": false,
+				"runs": 200
+			},
+			"outputSelection": {
+				"*": {
+					"": [
+						"ast"
+					],
+					"*": [
+						"abi",
+						"metadata",
+						"devdoc",
+						"userdoc",
+						"storageLayout",
+						"evm.legacyAssembly",
+						"evm.bytecode",
+						"evm.deployedBytecode",
+						"evm.methodIdentifiers",
+						"evm.gasEstimates",
+						"evm.assembly"
+					]
+				}
+			},
+			"remappings": []
+		}
+	},
+	"output": {
+		"sources": {
+			"solidity-learning-lab/26_可视范围.sol": {
+				"ast": {
+					"absolutePath": "solidity-learning-lab/26_可视范围.sol",
+					"exportedSymbols": {},
+					"id": 2,
+					"license": "MIT",
+					"nodeType": "SourceUnit",
+					"nodes": [
+						{
+							"id": 1,
+							"literals": [
+								"solidity",
+								"^",
+								"0.8",
+								".30"
+							],
+							"nodeType": "PragmaDirective",
+							"src": "32:24:0"
+						}
+					],
+					"src": "32:329:0"
+				},
+				"id": 0
+			}
+		}
+	}
+}
