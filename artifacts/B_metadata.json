@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "bar",
+				"outputs": [],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "foo",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"solidity-learning-lab/24_继承.sol": "B"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"solidity-learning-lab/24_继承.sol": {
+			"keccak256": "0x823122e1487e1ccf426ef7685a957299432772f5733aec651510c932a616d45f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://78647846429b714eb2bc7a49e863566ea540945127f3906d39c255dc8349a941",
+				"dweb:/ipfs/QmWLoQhLa4g84g7k8tmxhTCd7fMJXAitmjFtiKEWHQULQQ"
+			]
+		}
+	},
+	"version": 1
+}
