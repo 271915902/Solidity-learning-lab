@@ -1,0 +1,77 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "example",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "myStructs",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "foo",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "text",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"solidity-learning-lab/22_存储位置.sol": "DataLocations"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"solidity-learning-lab/22_存储位置.sol": {
+			"keccak256": "0x91a052f1e7add6140e5214ea987a38ceb46873af403858cb0004262a8434aa7d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e830893d944b24c1a089b9c118bd8d09f049eaa2855475838f5d6dfc9c72d90e",
+				"dweb:/ipfs/QmdEs2FyBQUZ8mw9hBLxA7Qrw1srRa8Qyvky9LTrRB6St5"
+			]
+		}
+	},
+	"version": 1
+}
