@@ -11,19 +11,6 @@
 				"outputs": [],
 				"stateMutability": "pure",
 				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "foo",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "pure",
-				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -39,7 +26,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"solidity-learning-lab/24_继承.sol": "A"
+			"solidity-learning-lab/25_调用父级合约函数.sol": "A"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -53,12 +40,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"solidity-learning-lab/24_继承.sol": {
-			"keccak256": "0x823122e1487e1ccf426ef7685a957299432772f5733aec651510c932a616d45f",
+		"solidity-learning-lab/25_调用父级合约函数.sol": {
+			"keccak256": "0x778b6c45c905260922ab5aec78e75115a8677b12e4811ba2651a6a653005a8b8",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://78647846429b714eb2bc7a49e863566ea540945127f3906d39c255dc8349a941",
-				"dweb:/ipfs/QmWLoQhLa4g84g7k8tmxhTCd7fMJXAitmjFtiKEWHQULQQ"
+				"bzz-raw://cb6032a4719aae9aff9ee22b2b34c107624a7876c251f4397239f13de7803ece",
+				"dweb:/ipfs/QmdCgMNx561SQRjaWiSdi7zxJs9RZCd2sQnjcz3TwCjFM9"
 			]
 		}
 	},
